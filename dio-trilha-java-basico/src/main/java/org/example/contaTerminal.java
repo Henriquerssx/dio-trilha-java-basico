@@ -15,11 +15,12 @@ public class contaTerminal {
             System.out.println(etiquetas[i]);
             dados[i] = sc.nextLine();
         }
+        sc.close();
        contaBanco usuario1 = new contaBanco(
                dados[0],
               Integer.parseInt(dados[1]),
                dados[2],
-               new BigDecimal(dados[3]));;
+               new BigDecimal(dados[3]));
 
         usuario1.Saudacao();
 
