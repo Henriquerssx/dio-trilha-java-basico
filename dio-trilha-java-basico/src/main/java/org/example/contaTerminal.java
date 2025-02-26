@@ -7,7 +7,7 @@ public class contaTerminal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Vamos cadastrar sua conta no nosso banco ");
-        String[] etiquetas = {"nome:", "conta da conta: ", "agencia: ", "saldo:"};
+        String[] etiquetas = {"nome:", "número da conta: ", "agencia: ", "saldo:"};
 
         String[] dados = new String[etiquetas.length];
         System.out.println("Preencha o formulario: ");
